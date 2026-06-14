@@ -22,3 +22,7 @@
 
 ##
 - generally the request we send is the "get" request against which we get the response
+
+## 
+- to run the index.js directly from the package.json file we wrte the script
+- like the start, build, dev
