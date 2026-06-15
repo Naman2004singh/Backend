@@ -10,7 +10,7 @@ function App() {
 
   // callback and dependency array, to request
   useEffect(() => {
-    axios.get('http://localhost:3000/jokes')
+    axios.get('/api/jokes')
     .then((respose) =>{
       setjokes(respose.data)
     })
@@ -26,11 +26,11 @@ function App() {
       <p>Jokes : {jokes.length}</p>
 
       {
-        jokes.map((jokes) =>{
+        jokes.map((jokes) => (
           <div key = {jokes.id}>
             <h3>{jokes.joke}</h3>
           </div>
-        })
+        ))
       }
     </>
   )

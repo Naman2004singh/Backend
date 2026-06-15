@@ -23,4 +23,16 @@ theu basically help to bundle all these files and convert to browser understandb
     white list the origins(i.e ports, urls) or allow all
     * remember while deploying vercel, netlify they work on diff ports
 
-    
+# use of the proxy
+- add the proxy and use it with all the end points
+
+in vite.config file
+
+ // this toolchain detect if /api is there then automatically add this
+
+// this proxy will be added like the request is coming from this url only
+
+// server will see - it is originateled from this url only
+
+# bad practice
+- npm run build
