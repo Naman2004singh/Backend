@@ -10,3 +10,6 @@
 
 # To run the commands
 - npm run start
+
+# To create a file
+- touch index.js

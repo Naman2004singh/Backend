@@ -1,5 +1,5 @@
 
-// common js
+// common js - here all the code come synchronously
 // const express = require("express")
 // require('dotenv').config()
 
