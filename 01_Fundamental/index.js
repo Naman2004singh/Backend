@@ -8,7 +8,7 @@ import express from "express"
 import 'dotenv/config'
 
 const app = express()
-const port = 3000
+// const port = 3000
 
 app.get('/', (req, res) => {
     res.send('Hello World')
@@ -23,5 +23,5 @@ app.get('/login', (req, res) =>{
 })
 
 app.listen(process.env.PORT, () => {
-    console.log(`Listen on port ${port}`);
+    console.log(`Listen on port ${process.env.PORT}`);
 })
