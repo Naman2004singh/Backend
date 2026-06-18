@@ -2,7 +2,7 @@
 
 - some tools that is used to help in modeling the data are : 
 # Help in data or object modelling
-1) mongoose
+1) mongoose // help in creating the schema of the data
 2) moon modeller
 3) eraser.io
 4) prisma
