@@ -13,3 +13,9 @@
 
 # To create a file
 - touch index.js
+
+# To install nodemon for dev dep
+- npm i -D nodemon/npm install --save-dev nodemon
+
+# To work on the dev like usng the nodemon
+- npm run dev
