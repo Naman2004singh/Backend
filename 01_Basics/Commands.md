@@ -19,3 +19,8 @@
 
 # To work on the dev like usng the nodemon
 - npm run dev
+
+# To create the file
+- touch index.js constants.js
+# To create the folder
+- mkdir controllers db
