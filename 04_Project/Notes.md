@@ -13,3 +13,15 @@
 
 ##
 - npm run dev
+
+# app.js - express; db connection - mongoose
+
+# while connecting with Database(problems can occcur)
+- wrap with try-catch OR use promises
+- always use async/await as database is in other continent
+
+# process
+- node js provide it, as the current application is running on some process
+
+# dot env
+As early as possible in our application, import and config the dotenv as that they are available quickly
